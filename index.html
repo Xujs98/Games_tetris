@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<title>方塊</title>
+	<link rel="stylesheet" href="./css/init.css">
+    <style type="text/css">
+        
+    </style>
+
+
+</head>
+<body style="text-align: center;">
+    <div class='boxp'>
+        <p class='p1'>serious work reasonable game</p>
+        <p class='p2'>认真工作，合理游戏</p>
+    </div>
+    <div class="canvass">
+        <div class="gameover">Gameover!</div>
+        <button onclick="game.Event()">开 始</button>
+        <canvas id="mycanvas" width="120" height="200">
+            您的浏览器不支持canvas，请使用Google Chrome浏览器（或者webkit内核浏览器，或者IE10以上）
+        </canvas>
+    </div >
+<script src="./js/BlockAll.js"></script>
+<script src="./js/Game.js"></script>
+
+<script>
+	
+		
+	var game = new Game({
+		"id":"#mycanvas",
+		"game":".gameover"
+	
+	})
+	
+	
+</script>
+</body>
+</html>

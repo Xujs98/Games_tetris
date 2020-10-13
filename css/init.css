@@ -1,0 +1,62 @@
+*{padding:0;margin:0;}
+canvas{
+	
+	border:5px solid #000;
+	border-radius:5px;
+	background-color: #000;
+	}
+div{
+	position:absolute;
+	width:330px;
+	left:50%;
+	top:50px;
+
+	transform:translateX(-50%);
+	background-color:#000000;
+	border-radius:5px;
+	color:#fff;
+}
+table{
+	border-collapse:collapse;
+
+}
+td{
+	width:10px;
+	height:10px;
+	border:1px solid #000;
+}
+.event{
+	position:absolute;
+	top:300px;
+	left:200px;
+}
+.canvass{
+	position:absolute;
+	left:50%;
+	top:100px;
+	transform:translateX(-50%);
+}
+.canvass .gameover{
+	position:absolute;
+	width:120px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	left:60px;
+	top:-50%;
+	transform:translateY(-50%);
+	background-color:red;
+	color:white;
+	transition:all 1s ease 0s;
+}
+.canvass button{
+	position:absolute;
+	width:70px;
+	height:30px;
+	left: 255px;
+	top: 316px;
+	background-color:yellowgreen;
+	border:none;
+	border-radius:5px;
+	color:white;
+}
